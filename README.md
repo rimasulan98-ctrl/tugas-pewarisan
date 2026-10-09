@@ -15,7 +15,6 @@ Abstraksi diterapkan dengan memodelkan objek bentuk geometris dari dunia nyata m
 ### 2. Encapsulation (Enkapsulasi)
 Enkapsulasi digunakan untuk melindungi data/variabel dalam kelas agar tidak dapat diakses atau diubah secara langsung dari luar kelas tanpa kontrol yang aman.
 * **Access Modifier `private`**: Digunakan pada atribut spesifik seperti `sisi` (`BujurSangkar`), `radius` (`Lingkaran`), dan `tinggi` (`Silinder`).
-* **Access Modifier `protected`**: Digunakan pada atribut `warna` pada class `Bentuk` dan `radius` pada `Lingkaran` agar dapat diakses secara langsung oleh kelas turunannya (*subclass*).
 * **Getter & Setter**: Disediakan metode seperti `getSisi()`, `setSisi()`, `getRadius()`, dan `setTinggi()` untuk mengontrol pembacaan dan pembaruan atribut secara terisolasi.
 
 ### 3. Inheritance (Pewarisan)
@@ -31,7 +30,6 @@ Polimorfisme diterapkan melalui teknik **Method Overriding**:
 * Class `Silinder` memanfaatkan *reusability* dengan memanggil `hitungLuas()` dari parent-nya (`Lingkaran`) via `super.hitungLuas()` untuk menghitung volume (`luas alas * tinggi`).
 
 ---
-
 
 ## 📸 Screenshot Hasil Eksekusi Program
 
