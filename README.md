@@ -4,20 +4,6 @@ Repositori ini berisi implementasi program Java berbasis Pemrograman Berorientas
 
 ---
 
-## 📌 Struktur Berkas
-
-```text
-.
-├── Bentuk.java         # Superclass / Parent Class utama
-├── BujurSangkar.java   # Subclass dari Bentuk (Exercise 1)
-├── Lingkaran.java      # Subclass dari Bentuk (Exercise 2)
-├── Silinder.java       # Subclass dari Lingkaran (Exercise 3)
-├── Main.java           # Driver Class dengan Sistem Menu Interaktif
-└── README.md           # Dokumentasi Repositori
-```
-
----
-
 ## 🛠️ Penerapan Konsep OOP (Object-Oriented Programming)
 
 Program ini mengimplementasikan 4 pilar utama OOP serta kriteria teknis sesuai dengan materi perkuliahan:
@@ -46,43 +32,23 @@ Polimorfisme diterapkan melalui teknik **Method Overriding**:
 
 ---
 
-## 🚀 Cara Menjalankan Program
-
-### Melalui Visual Studio Code (VS Code)
-1. Buka folder proyek ini di **VS Code**.
-2. Pastikan ekstensi **Extension Pack for Java** telah terinstal.
-3. Buka file `Main.java`.
-4. Klik tombol **Run** di pojok kanan atas atau tekan `F5` pada keyboard.
-
-### Melalui Terminal / Command Prompt
-1. Buka terminal pada direktori proyek.
-2. Kompilasi semua file Java:
-   ```bash
-   javac *.java
-   ```
-3. Jalankan kelas utama:
-   ```bash
-   java Main
-   ```
-
----
 
 ## 📸 Screenshot Hasil Eksekusi Program
 
-*(Silakan simpan gambar hasil eksekusi program di folder proyek Anda dan sesuaikan path gambar di bawah ini)*
-
 ### 1. Menu Utama & Input Bujur Sangkar (Exercise 1)
-![Screenshot Menu & BujurSangkar](docs/screenshot-bujursangkar.png)
+![Screenshot Menu & BujurSangkar](output/Menu_1.png)
 
 ### 2. Input Lingkaran (Exercise 2)
-![Screenshot Lingkaran](docs/screenshot-lingkaran.png)
+![Screenshot Lingkaran](output/Menu_2.png)
 
 ### 3. Input Silinder (Exercise 3)
-![Screenshot Silinder](docs/screenshot-silinder.png)
+![Screenshot Silinder](output/Menu_3.png)
 
+### 4. Menu Keluar
+![Screenshot Menu Keluar](output/Menu_4.png)
 ---
 
 ## 👤 Pembuat
-* **Nama**: [Nama Anda]
-* **NIM**: [NIM Anda]
-* **Kelas**: Pemrograman Berorientasi Objek (PBO) / Teknik Informatika
+* **Nama**: [Tri Pilari Utama Sulan]
+* **NIM**: [F1D02510094]
+* **Kelas**: Pemrograman Berorientasi Objek (PBO)
