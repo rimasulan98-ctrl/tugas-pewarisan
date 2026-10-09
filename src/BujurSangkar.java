@@ -1,5 +1,5 @@
 public class BujurSangkar extends Bentuk {
-    public double sisi;
+    private double sisi;
 
     public BujurSangkar(double sisi, String warna) {
         super(warna);
