@@ -45,7 +45,7 @@ Polimorfisme diterapkan melalui teknik **Method Overriding**:
 ![Screenshot Silinder](output/Menu_3.png)
 
 ### 4. Menu Keluar
-![Screenshot Menu Keluar](output/Menu_4.png)
+![Screenshot Keluar](output/Menu_4.png)
 ---
 
 ## 👤 Pembuat
